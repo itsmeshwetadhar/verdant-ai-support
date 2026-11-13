@@ -7,6 +7,7 @@ A full-stack AI-powered customer support platform for Verdant & Co., a fictional
 - **Application:** https://verdant-ai-support.vercel.app/
 - **Backend:** https://verdant-ai-support-tymu.onrender.com
 - **Webhook:** https://verdant-ai-support-tymu.onrender.com/webhook
+  This endpoint accepts POST requests with a valid HMAC-SHA256 signature. It is not intended to be opened directly in a browser. Use `server/test-webhook.js` to test it.
 - **GitHub:** https://github.com/itsmeshwetadhar/verdant-ai-support
 
 **Agent demo login**
